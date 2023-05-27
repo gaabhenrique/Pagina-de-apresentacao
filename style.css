@@ -175,6 +175,17 @@ nav {
     max-width: 60rem;
 }
 
+#btnCv {
+    background-color: transparent;
+    padding: 2.5rem;
+    border: none;
+    border: 1px solid var(--red);
+}
+
+#btnCv:hover {
+    cursor: pointer;
+}
+
 .education {
     background-color: var(--backgroundColor);
     padding: 2.5rem;
@@ -183,7 +194,7 @@ nav {
 }
 
 .education:target {
-    scroll-margin-top: 25.0rem;
+    scroll-margin-top: 10.0rem;
 }
 
 .courses {
@@ -214,7 +225,7 @@ nav {
 }
 
 .devSkills:target {
-    scroll-margin-top: 15.0rem;
+    scroll-margin-top: 10.0rem;
 }
 
 .skillsContainer {
